@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackeru.edu.morelayouts.MainActivity">
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/marg_left"
+        android:background="#ffff0000"
+        android:text="@string/red" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRed"
+        android:layout_marginLeft="@dimen/marg_left"
+        android:layout_marginStart="@dimen/marg_left"
+        android:layout_toEndOf="@+id/btnRed"
+        android:layout_toRightOf="@+id/btnRed"
+        android:background="#ff00ff00"
+        android:text="@string/green" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGreen"
+        android:layout_marginLeft="@dimen/marg_left"
+        android:layout_marginStart="@dimen/marg_left"
+        android:layout_toEndOf="@+id/btnGreen"
+        android:layout_toRightOf="@+id/btnGreen"
+        android:background="#0000ff"
+        android:text="@string/blue" />
+
+    <Button
+        android:id="@+id/btnCyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBlue"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/btnBlue"
+        android:layout_toStartOf="@+id/btnBlue"
+        android:background="#00ffff"
+        android:text="@string/cyan" />
+
+    <Button
+        android:id="@+id/btnMagenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnCyan"
+
+        android:background="#ff00ff"
+        android:text="@string/magenta" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCyan"
+        android:layout_alignRight="@+id/btnCyan"
+        android:layout_below="@+id/btnMagenta"
+        android:background="#ffff00"
+        android:text="@string/yellow" />
+
+    <Button
+        android:id="@+id/btnBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnBlue"
+        android:layout_alignRight="@+id/btnBlue"
+        android:layout_below="@+id/btnYellow"
+        android:background="#000"
+        android:text="@string/black"
+        android:textColor="#fff" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoreLayouts</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="magenta">Magenta</string>
+    <string name="yellow">Yellow</string>
+    <string name="black">Black</string>
+</resources>
